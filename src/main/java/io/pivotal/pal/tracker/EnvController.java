@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.HashMap;
 import java.util.Map;
 
-import static java.util.Collections.emptyMap;
-
 @RestController
 public class EnvController {
     final private String port;
